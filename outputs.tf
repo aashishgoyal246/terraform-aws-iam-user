@@ -1,4 +1,4 @@
-# Module      : IAM Role
+# Module      : IAM User
 # Description : Terraform module to create IAM Role resource on AWS.
 output "arn" {
   value       = join("", aws_iam_user.default.*.arn)

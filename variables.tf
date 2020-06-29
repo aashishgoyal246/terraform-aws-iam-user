@@ -36,8 +36,8 @@ variable "tags" {
   description = "Additional tags (e.g. map(`BusinessUnit`,`XYZ`)."
 }
 
-# Module      : IAM Role
-# Description : Terraform IAM Role module variables.
+# Module      : IAM User
+# Description : Terraform IAM User module variables.
 variable "force_destroy" {
   type        = bool
   default     = false

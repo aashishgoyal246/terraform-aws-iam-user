@@ -1,5 +1,5 @@
-# Module      : IAM Role
-# Description : Terraform module to create Iam Role resource on AWS.
+# Module      : IAM User
+# Description : Terraform module to create Iam User resource on AWS.
 output "arn" {
   value       = module.iam_user.*.arn
   description = "The ARN assigned by AWS for this user."
